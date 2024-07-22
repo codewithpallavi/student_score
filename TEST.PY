@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 df = pd.read_csv("students.csv")
-# print(df.head())
-# print(df.describe())
-# print(df.info())
-# print((df.isnull().sum()))
+print(df.head())
+print(df.describe())
+print(df.info())
+print((df.isnull().sum()))
 
 # drop unamed column
 df = df.drop("Unnamed: 0", axis=1)
